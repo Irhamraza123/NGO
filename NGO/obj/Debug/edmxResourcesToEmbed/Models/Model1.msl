@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NGO_FoundationModelStoreContainer" CdmEntityContainer="NGO_FoundationEntities9">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="NGO_FoundationModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="a_id" ColumnName="a_id" />
+          <ScalarProperty Name="a_name" ColumnName="a_name" />
+          <ScalarProperty Name="a_password" ColumnName="a_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="contacts">
+      <EntityTypeMapping TypeName="NGO_FoundationModel.contact">
+        <MappingFragment StoreEntitySet="contact">
+          <ScalarProperty Name="c_id" ColumnName="c_id" />
+          <ScalarProperty Name="c_name" ColumnName="c_name" />
+          <ScalarProperty Name="c_email" ColumnName="c_email" />
+          <ScalarProperty Name="c_phone" ColumnName="c_phone" />
+          <ScalarProperty Name="c_feedback" ColumnName="c_feedback" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="donations">
+      <EntityTypeMapping TypeName="NGO_FoundationModel.donation">
+        <MappingFragment StoreEntitySet="donation">
+          <ScalarProperty Name="d_id" ColumnName="d_id" />
+          <ScalarProperty Name="d_amount" ColumnName="d_amount" />
+          <ScalarProperty Name="d_cause" ColumnName="d_cause" />
+          <ScalarProperty Name="u_id_fk" ColumnName="u_id_fk" />
+          <ScalarProperty Name="n_id_fk" ColumnName="n_id_fk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="foundations">
+      <EntityTypeMapping TypeName="NGO_FoundationModel.foundation">
+        <MappingFragment StoreEntitySet="foundation">
+          <ScalarProperty Name="n_id" ColumnName="n_id" />
+          <ScalarProperty Name="n_name" ColumnName="n_name" />
+          <ScalarProperty Name="a_id_fk" ColumnName="a_id_fk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="NGO_FoundationModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="u_id" ColumnName="u_id" />
+          <ScalarProperty Name="u_name" ColumnName="u_name" />
+          <ScalarProperty Name="u_email" ColumnName="u_email" />
+          <ScalarProperty Name="u_password" ColumnName="u_password" />
+          <ScalarProperty Name="u_phone" ColumnName="u_phone" />
+          <ScalarProperty Name="u_address" ColumnName="u_address" />
+          <ScalarProperty Name="u_city" ColumnName="u_city" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

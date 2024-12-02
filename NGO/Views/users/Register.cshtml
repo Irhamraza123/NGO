@@ -1,0 +1,30 @@
+﻿@model NGO.Models.user
+@{
+    ViewBag.Title = "Register";
+}
+
+
+
+    @using (Html.BeginForm("Register", "users", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+<div class="container" style="width:400px;">
+    <h1 style="margin-top:20px; margin-left:100px;">Register</h1>
+
+    @Html.TextBoxFor(x => x.u_name, new { @class = "form-control", placeholder = "Enter Name" })
+    @Html.TextBoxFor(x => x.u_email, new { @class = "form-control", placeholder = "Enter Email" })
+    @Html.PasswordFor(x => x.u_password, new { @class = "form-control", placeholder = "Enter Password" })
+    @Html.TextBoxFor(x => x.u_phone, new { @class = "form-control", placeholder = "Enter Phone" })
+    @Html.TextBoxFor(x => x.u_address, new { @class = "form-control", placeholder = "Enter Address" })
+    @Html.TextBoxFor(x => x.u_city, new { @class = "form-control", placeholder = "Enter City" })
+
+
+
+
+
+    <input style="margin-left: 150px;" type="submit" value="submit" name="submit" class="btn btn-success" />
+    <br />
+    <br />
+
+</div>
+    }

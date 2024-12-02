@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d2ed743e890843d9b49d2f04bff60a35" Name="Diagram1">
+        <EntityTypeShape EntityType="NGO_FoundationModel.admin" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NGO_FoundationModel.contact" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NGO_FoundationModel.donation" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NGO_FoundationModel.foundation" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NGO_FoundationModel.user" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__foundatio__a_id___534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__foundatio__a_id___5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__foundatio__a_id___628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__foundatio__a_id___6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__n_id_f__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__n_id_f__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__n_id_f__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__n_id_f__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__u_id_f__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__u_id_f__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__u_id_f__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="NGO_FoundationModel.FK__donation__u_id_f__693CA210" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

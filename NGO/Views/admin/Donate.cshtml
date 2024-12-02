@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Donate";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+
+<link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container-fluid" style="margin-left:400px;">
+    <br /><br />
+    <h1 style="margin-left:200px;">Donate</h1>
+    <form>
+        <label for="NGO">Choose a NGO:</label>
+        <select class="form-control" name="cars" id="cars" style="width:500px;">
+            <option value="JDC">JDC</option>
+            <option value="Islamic Trust">Islamic Trust</option>
+            <option value="Childrens academy">Childrens academy</option>
+            <option value="Child Journey">Child Journey</option>
+        </select>
+
+
+        <label for="Amount">Amount</label> 
+        <input type="text" class="form-control" style="width:500px;"/>
+
+        <label for="Cause">Cause</label>
+        <input type="text" class="form-control"  style="width:500px;"/>
+
+
+        <input type="submit" value="Submit" class="btn btn-success">
+
+
+    </form>
+    <br /><br />
+</div>
+
+
+

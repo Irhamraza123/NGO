@@ -1,0 +1,20 @@
+﻿@model NGO.Models.donation
+@{
+    ViewBag.Title = "donation";
+}
+
+<div class="container" style="width:400px;">
+    <h1 style="margin-top:20px; margin-left:100px;">Donation</h1>
+    @using (Html.BeginForm("donation", "users", FormMethod.Post))
+    {
+        @Html.DropDownListFor(x => x.n_id_fk, ViewBag.f_list as SelectList, "Select NGO", new { @class = "form-control" })
+        @Html.TextBoxFor(x => x.d_amount, new { @class = "form-control", placeholder = "Enter Amount" })
+        @Html.TextBoxFor(x => x.d_cause, new { @class = "form-control", placeholder = "Enter Purpose" })
+
+        <input style="margin-left: 150px;" type="submit" value="submit" name="submit" class="btn btn-success" />
+
+
+    }
+
+</div>
+<br />

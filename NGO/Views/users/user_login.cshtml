@@ -1,0 +1,24 @@
+﻿@model NGO.Models.user
+@{
+    ViewBag.Title = "user_login";
+}
+<div class="container" style="width:400px;">
+
+    <h1 style="margin-top:20px; margin-left:80px;">User Login</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.TextBoxFor(x => x.u_name, new { @class = "form-control", placeholder = "Enter Name" })
+        @Html.PasswordFor(x => x.u_password, new { @class = "form-control", placeholder = "Enter Password" })
+
+        <input style="margin-left: 150px;" type="submit" value="login" name="login" class="btn btn-success" />
+
+        <p style="padding:1rem; margin-left:50px;" >Don't have an account? <a >@Html.ActionLink("Sign Up","Register","users", null, new { style = "text-decoration:underline; color:blue;" })</a></p>
+    }
+
+    <br />
+
+    <div class="form-group">
+
+        <h3>@ViewBag.error</h3>
+    </div>
+</div>

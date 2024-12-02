@@ -1,0 +1,36 @@
+﻿@model IEnumerable<NGO.Models.user>
+@{
+    ViewBag.Title = "View_users";
+    Layout = "~/Views/Shared/admin_Layout.cshtml";
+}
+<br />
+<div class="container">
+    <h1 style="margin-left:430px;">Users Detail</h1>
+    <table class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Address</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.u_name</td>
+                        <td>@item.u_email</td>
+                        <td>@item.u_phone</td>
+                        <td>@item.u_address</td>
+                        <td>@item.u_city</td>
+
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    </div>

@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NGO Charitables</title>
+    <link rel="shortcut icon" href="~/assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="~/assets/images/fav.jpg">
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/all.min.css">
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+    <link rel="stylesheet" href="~/assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    
+
+</head>
+<body>
+    <header class="continer-fluid ">
+        <div class="header-top">
+            <div class="container">
+                <div class="row col-det">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="~/assets/images/logo.jpg" alt="" style="width:300px; margin-bottom:-25px; ">
+                            <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                        </a>
+                    </div>
+                    <div style="margin-left:800px;" class="col-lg-4 d-none d-md-block col-md-6 btn-bhed">
+                        <button style="margin-top:-60px" class="btn btn-success"> @Html.ActionLink("Donate", "donation", "users", null, new { style = "text-decoration:none; color:white;" })</button>
+
+                        @if (Session["u_id"] != null)
+                        {
+
+                          
+
+
+
+                           <a href="@Url.Action("StudentHome", "Student", Session["u_name"])"></a> 
+                        }
+
+
+                        @*<button class="btn btn-default"  style="margin-top:-60px; color:black;">*@
+
+                        @if (Session["u_id"] == null)
+                        {
+                            @Html.ActionLink("LOGIN", "user_login", "users", null, new { style = "text-decoration:none;" })
+                        }
+
+
+
+                        <button class="btn btn-success" style="margin-top:-60px; color:white;">
+
+    @if (Session["u_id"] == null)
+    {
+        @Html.ActionLink("Register", "Register", "users", null, new { style = "text-decoration:none; color:white;" })
+    }
+
+
+
+
+    else
+    {
+
+
+        @Html.ActionLink("LOGOUT", "Signout", "users", null, new { style = "text-decoration:none; margin-top:-60px; color:white;" })
+
+    }
+
+</button>
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu-jk" class="header-bottom">
+            <div class="container">
+                <div class="row nav-row">
+                  
+                    <div style="margin-left:65px;" id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+
+                        <ul  class="navbad">
+                            <li class="nav-item active">
+                                @Html.ActionLink("Home", "Index", "admin", new { @class = "nav-link" })
+                            </li>
+                            <li class="nav-item">
+                                @Html.ActionLink("About Us", "About", "admin", new { @class = "nav-link" })
+                            </li>
+                            <li class="nav-item">
+                                @Html.ActionLink("Our Services", "Services", "admin", new { @class = "nav-link" })
+                            </li>
+
+                            <li class="nav-item">
+                                @Html.ActionLink("Gallery", "Gallery", "admin", new { @class = "nav-link" })
+                            </li>
+
+
+                            <li class="nav-item">
+                                @Html.ActionLink("Contact Us", "Contact", "admin", new { @class = "nav-link" })
+                            </li>
+
+
+
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>About Us</h2>
+                    <p>NGO charitables is non-governmental organization. While there is no universally agreed-upon definition of an NGO, typically it is a voluntary group or institution with a social mission, which operates independently from the government. Our dedicated employees offer strategic insights, technological expertise and industry experience. We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Useful Links</h2>
+                    <ul class="list-unstyled link-list">
+                        <li>@Html.ActionLink("About Us", "About", "admin", new { @class = "nav-link" })</li>   
+                        <li>@Html.ActionLink("Gallery", "Gallery", "admin", new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Contact Us", "Contact", "admin", new { @class = "nav-link" })</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 map-img">
+                    <h2>Contact Us</h2>
+                    <address class="md-margin-bottom-40">
+                        NGO charitables <br>
+                        Aptech NN2 <br>
+                        North Nazimabad <br>
+                        Phone: +91 9159669599 <br>
+                        Email:info@NGOCharitables.com<br>
+                        Web: <a href="smart-eye.html" class="">www.NGOCharitables.com</a>
+                    </address>
+
+                </div>
+            </div>
+
+
+            <div class="nav-box row clearfix">
+                <div class="inner col-md-9 clearfix">
+                    <ul class="footer-nav clearfix">
+                        <li> @Html.ActionLink("Home", "Index", "admin", new { @class = "nav-link" })</li>
+                        <li> @Html.ActionLink("About Us", "About", "admin", new { @class = "nav-link" })</li>
+                        <li> @Html.ActionLink("Gallery", "Gallery", "admin", new { @class = "nav-link" })</li>
+                        <li> @Html.ActionLink("Our Services", "Services", "admin", new { @class = "nav-link" })</li>
+                        <li> @Html.ActionLink("Contact Us", "Contact", "admin", new { @class = "nav-link" })</li>
+                    </ul>
+
+
+                </div>
+                <button style="width:100px; height:40px; margin-top:14px; margin-left:140px;" class="btn btn-default"> @Html.ActionLink("Donate", "donation", "users")</button>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="~/assets/plugins/slider/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/script.js"></script>
+
+
+</body>
+</html>

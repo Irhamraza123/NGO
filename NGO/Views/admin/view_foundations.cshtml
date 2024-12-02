@@ -1,0 +1,31 @@
+﻿@model IEnumerable<NGO.Models.modelclass>
+@{
+    ViewBag.Title = "view_foundations";
+    Layout = "~/Views/Shared/admin_Layout.cshtml";
+
+}
+<br />
+<div class="container">
+    <h1 style="margin-left:450px;">Foundations</h1>
+
+    <table class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>Foundation Name</th>
+                <th>Admin</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.n_name</td>
+                        <td>@item.a_name</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    </div>

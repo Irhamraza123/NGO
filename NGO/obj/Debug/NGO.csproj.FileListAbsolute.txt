@@ -1,0 +1,348 @@
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\NGO.dll.config
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\NGO.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\NGO.pdb
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csc.exe
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csc.exe.config
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csc.rsp
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csi.exe
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csi.exe.config
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\csi.rsp
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.AppContext.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Console.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Net.Http.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Net.Sockets.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\vbc.exe
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\vbc.exe.config
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\vbc.rsp
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Antlr3.Runtime.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\EntityFramework.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Newtonsoft.Json.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Helpers.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Mvc.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Optimization.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Razor.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\WebGrease.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\EntityFramework.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Helpers.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Mvc.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Optimization.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.Razor.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Newtonsoft.Json.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Antlr3.Runtime.pdb
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\obj\Debug\NGO.csproj.AssemblyReference.cache
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CoreCompileInputs.cache
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CopyComplete
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\obj\Debug\NGO.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\obj\Debug\NGO.pdb
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\obj\Debug\NGO.csproj.AssemblyReference.cache
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CoreCompileInputs.cache
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\obj\Debug\NGO.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\obj\Debug\NGO.pdb
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\NGO.dll.config
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\NGO.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\NGO.pdb
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csc.exe
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csc.exe.config
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csc.rsp
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csi.exe
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csi.exe.config
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\csi.rsp
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.AppContext.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Console.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Net.Http.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Net.Sockets.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\vbc.exe
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\vbc.exe.config
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\vbc.rsp
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Antlr3.Runtime.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\EntityFramework.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Newtonsoft.Json.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Helpers.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Mvc.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Optimization.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Razor.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\WebGrease.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\EntityFramework.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Helpers.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Mvc.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Optimization.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.Razor.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Newtonsoft.Json.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Antlr3.Runtime.pdb
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CopyComplete
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\PagedList.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\PagedList.Mvc.dll
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\PagedList.xml
+C:\Users\asp.APTECHNN2\source\repos\NGO\NGO\bin\PagedList.Mvc.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\PagedList.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\PagedList.Mvc.dll
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\PagedList.xml
+C:\Users\COMTECH 03122811806\source\repos\NGO\NGO\bin\PagedList.Mvc.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\NGO.dll.config
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\NGO.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\NGO.pdb
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csc.exe
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csc.exe.config
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csc.rsp
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csi.exe
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csi.exe.config
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\csi.rsp
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.AppContext.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Console.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Net.Http.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Net.Sockets.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\vbc.exe
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\vbc.exe.config
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\vbc.rsp
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Antlr3.Runtime.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\EntityFramework.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Newtonsoft.Json.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\PagedList.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\PagedList.Mvc.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Helpers.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Mvc.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Optimization.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Razor.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\WebGrease.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\EntityFramework.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\EntityFramework.SqlServer.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\PagedList.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\PagedList.Mvc.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Helpers.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Mvc.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Optimization.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.Razor.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Newtonsoft.Json.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Antlr3.Runtime.pdb
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\obj\Debug\NGO.csproj.AssemblyReference.cache
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CoreCompileInputs.cache
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\obj\Debug\NGO.csproj.CopyComplete
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\obj\Debug\NGO.dll
+C:\Users\BINARY COMPUTERS\source\repos\NGO\NGO\obj\Debug\NGO.pdb
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\obj\Debug\NGO.csproj.AssemblyReference.cache
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\obj\Debug\NGO.csproj.CoreCompileInputs.cache
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\obj\Debug\NGO.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\obj\Debug\NGO.pdb
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\NGO.dll.config
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\NGO.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\NGO.pdb
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csc.exe
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csc.exe.config
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csc.rsp
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csi.exe
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csi.exe.config
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\csi.rsp
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.AppContext.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Console.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.IO.Compression.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Net.Http.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Net.Sockets.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.ValueTuple.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Xml.XPath.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\vbc.exe
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\vbc.exe.config
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\vbc.rsp
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\VBCSCompiler.exe
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Antlr3.Runtime.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\EntityFramework.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\EntityFramework.SqlServer.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Newtonsoft.Json.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\PagedList.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\PagedList.Mvc.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Helpers.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Mvc.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Optimization.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Razor.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.Razor.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\WebGrease.dll
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\EntityFramework.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\EntityFramework.SqlServer.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\PagedList.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\PagedList.Mvc.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Helpers.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Mvc.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Optimization.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.Razor.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\System.Web.WebPages.Razor.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Newtonsoft.Json.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Antlr3.Runtime.pdb
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BINARY COMPUTERS\studio projects\NGO\NGO\obj\Debug\NGO.csproj.Up2Date

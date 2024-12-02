@@ -1,0 +1,18 @@
+﻿@model NGO.Models.foundation
+@{
+    ViewBag.Title = "add_foundations";
+    Layout = "~/Views/Shared/admin_Layout.cshtml";
+
+}
+<br />
+
+<div class="container" style="width:400px;">
+    <h1 style="margin-left:60px;">Add Foundations</h1>
+    @using (Html.BeginForm("add_foundations", "admin", FormMethod.Post))
+    {
+        @Html.TextBoxFor(x => x.n_name, new { @class = "form-control", placeholder = "Enter Name" })
+
+        <input style="margin-left:150px;" type="submit" value="submit" name="submit" class="btn btn-success" />
+
+    }
+</div>

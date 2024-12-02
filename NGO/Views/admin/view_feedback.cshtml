@@ -1,0 +1,35 @@
+﻿@model IEnumerable<NGO.Models.modelclass>
+@{
+    ViewBag.Title = "view_Feedback";
+    Layout = "~/Views/Shared/admin_Layout.cshtml";
+
+}
+<br />
+<div class="container">
+    <h1 style="margin-left:450px;">Feedback</h1>
+
+    <table class="table table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+            <tr>
+                <td>@item.c_name</td>
+                <td>@item.c_email</td>
+                <td>@item.c_phone</td>
+                <td>@item.c_feedback</td>
+            </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

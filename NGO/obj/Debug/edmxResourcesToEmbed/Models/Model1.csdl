@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NGO_FoundationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="a_id" />
+    </Key>
+    <Property Name="a_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="a_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="a_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="foundations" Relationship="Self.FK__foundatio__a_id___534D60F1" FromRole="admin" ToRole="foundation" />
+    <NavigationProperty Name="foundations1" Relationship="Self.FK__foundatio__a_id___5AEE82B9" FromRole="admin" ToRole="foundation" />
+    <NavigationProperty Name="foundations2" Relationship="Self.FK__foundatio__a_id___628FA481" FromRole="admin" ToRole="foundation" />
+    <NavigationProperty Name="foundations3" Relationship="Self.FK__foundatio__a_id___6A30C649" FromRole="admin" ToRole="foundation" />
+  </EntityType>
+  <EntityType Name="contact">
+    <Key>
+      <PropertyRef Name="c_id" />
+    </Key>
+    <Property Name="c_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="c_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="c_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="c_phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="c_feedback" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="donation">
+    <Key>
+      <PropertyRef Name="d_id" />
+    </Key>
+    <Property Name="d_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="d_amount" Type="Double" Nullable="false" />
+    <Property Name="d_cause" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_id_fk" Type="Int32" />
+    <Property Name="n_id_fk" Type="Int32" />
+    <NavigationProperty Name="foundation" Relationship="Self.FK__donation__n_id_f__5165187F" FromRole="donation" ToRole="foundation" />
+    <NavigationProperty Name="foundation1" Relationship="Self.FK__donation__n_id_f__59063A47" FromRole="donation" ToRole="foundation" />
+    <NavigationProperty Name="foundation2" Relationship="Self.FK__donation__n_id_f__60A75C0F" FromRole="donation" ToRole="foundation" />
+    <NavigationProperty Name="foundation3" Relationship="Self.FK__donation__n_id_f__68487DD7" FromRole="donation" ToRole="foundation" />
+    <NavigationProperty Name="user" Relationship="Self.FK__donation__u_id_f__52593CB8" FromRole="donation" ToRole="users" />
+    <NavigationProperty Name="user1" Relationship="Self.FK__donation__u_id_f__59FA5E80" FromRole="donation" ToRole="users" />
+    <NavigationProperty Name="user2" Relationship="Self.FK__donation__u_id_f__619B8048" FromRole="donation" ToRole="users" />
+    <NavigationProperty Name="user3" Relationship="Self.FK__donation__u_id_f__693CA210" FromRole="donation" ToRole="users" />
+  </EntityType>
+  <EntityType Name="foundation">
+    <Key>
+      <PropertyRef Name="n_id" />
+    </Key>
+    <Property Name="n_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="n_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="a_id_fk" Type="Int32" />
+    <NavigationProperty Name="admin" Relationship="Self.FK__foundatio__a_id___534D60F1" FromRole="foundation" ToRole="admin" />
+    <NavigationProperty Name="admin1" Relationship="Self.FK__foundatio__a_id___5AEE82B9" FromRole="foundation" ToRole="admin" />
+    <NavigationProperty Name="admin2" Relationship="Self.FK__foundatio__a_id___628FA481" FromRole="foundation" ToRole="admin" />
+    <NavigationProperty Name="admin3" Relationship="Self.FK__foundatio__a_id___6A30C649" FromRole="foundation" ToRole="admin" />
+    <NavigationProperty Name="donations" Relationship="Self.FK__donation__n_id_f__5165187F" FromRole="foundation" ToRole="donation" />
+    <NavigationProperty Name="donations1" Relationship="Self.FK__donation__n_id_f__59063A47" FromRole="foundation" ToRole="donation" />
+    <NavigationProperty Name="donations2" Relationship="Self.FK__donation__n_id_f__60A75C0F" FromRole="foundation" ToRole="donation" />
+    <NavigationProperty Name="donations3" Relationship="Self.FK__donation__n_id_f__68487DD7" FromRole="foundation" ToRole="donation" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="u_id" />
+    </Key>
+    <Property Name="u_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="u_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="u_city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="donations" Relationship="Self.FK__donation__u_id_f__52593CB8" FromRole="users" ToRole="donation" />
+    <NavigationProperty Name="donations1" Relationship="Self.FK__donation__u_id_f__59FA5E80" FromRole="users" ToRole="donation" />
+    <NavigationProperty Name="donations2" Relationship="Self.FK__donation__u_id_f__619B8048" FromRole="users" ToRole="donation" />
+    <NavigationProperty Name="donations3" Relationship="Self.FK__donation__u_id_f__693CA210" FromRole="users" ToRole="donation" />
+  </EntityType>
+  <Association Name="FK__foundatio__a_id___534D60F1">
+    <End Role="admin" Type="Self.admin" Multiplicity="0..1" />
+    <End Role="foundation" Type="Self.foundation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="admin">
+        <PropertyRef Name="a_id" />
+      </Principal>
+      <Dependent Role="foundation">
+        <PropertyRef Name="a_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__foundatio__a_id___5AEE82B9">
+    <End Role="admin" Type="Self.admin" Multiplicity="0..1" />
+    <End Role="foundation" Type="Self.foundation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="admin">
+        <PropertyRef Name="a_id" />
+      </Principal>
+      <Dependent Role="foundation">
+        <PropertyRef Name="a_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__foundatio__a_id___628FA481">
+    <End Role="admin" Type="Self.admin" Multiplicity="0..1" />
+    <End Role="foundation" Type="Self.foundation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="admin">
+        <PropertyRef Name="a_id" />
+      </Principal>
+      <Dependent Role="foundation">
+        <PropertyRef Name="a_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__foundatio__a_id___6A30C649">
+    <End Role="admin" Type="Self.admin" Multiplicity="0..1" />
+    <End Role="foundation" Type="Self.foundation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="admin">
+        <PropertyRef Name="a_id" />
+      </Principal>
+      <Dependent Role="foundation">
+        <PropertyRef Name="a_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__n_id_f__5165187F">
+    <End Role="foundation" Type="Self.foundation" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="foundation">
+        <PropertyRef Name="n_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="n_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__n_id_f__59063A47">
+    <End Role="foundation" Type="Self.foundation" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="foundation">
+        <PropertyRef Name="n_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="n_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__n_id_f__60A75C0F">
+    <End Role="foundation" Type="Self.foundation" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="foundation">
+        <PropertyRef Name="n_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="n_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__n_id_f__68487DD7">
+    <End Role="foundation" Type="Self.foundation" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="foundation">
+        <PropertyRef Name="n_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="n_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__u_id_f__52593CB8">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="u_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__u_id_f__59FA5E80">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="u_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__u_id_f__619B8048">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="u_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__donation__u_id_f__693CA210">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="donation" Type="Self.donation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="u_id" />
+      </Principal>
+      <Dependent Role="donation">
+        <PropertyRef Name="u_id_fk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NGO_FoundationEntities9" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+    <EntitySet Name="contacts" EntityType="Self.contact" />
+    <EntitySet Name="donations" EntityType="Self.donation" />
+    <EntitySet Name="foundations" EntityType="Self.foundation" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK__foundatio__a_id___534D60F1" Association="Self.FK__foundatio__a_id___534D60F1">
+      <End Role="admin" EntitySet="admins" />
+      <End Role="foundation" EntitySet="foundations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__foundatio__a_id___5AEE82B9" Association="Self.FK__foundatio__a_id___5AEE82B9">
+      <End Role="admin" EntitySet="admins" />
+      <End Role="foundation" EntitySet="foundations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__foundatio__a_id___628FA481" Association="Self.FK__foundatio__a_id___628FA481">
+      <End Role="admin" EntitySet="admins" />
+      <End Role="foundation" EntitySet="foundations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__foundatio__a_id___6A30C649" Association="Self.FK__foundatio__a_id___6A30C649">
+      <End Role="admin" EntitySet="admins" />
+      <End Role="foundation" EntitySet="foundations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__n_id_f__5165187F" Association="Self.FK__donation__n_id_f__5165187F">
+      <End Role="foundation" EntitySet="foundations" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__n_id_f__59063A47" Association="Self.FK__donation__n_id_f__59063A47">
+      <End Role="foundation" EntitySet="foundations" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__n_id_f__60A75C0F" Association="Self.FK__donation__n_id_f__60A75C0F">
+      <End Role="foundation" EntitySet="foundations" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__n_id_f__68487DD7" Association="Self.FK__donation__n_id_f__68487DD7">
+      <End Role="foundation" EntitySet="foundations" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__u_id_f__52593CB8" Association="Self.FK__donation__u_id_f__52593CB8">
+      <End Role="users" EntitySet="users" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__u_id_f__59FA5E80" Association="Self.FK__donation__u_id_f__59FA5E80">
+      <End Role="users" EntitySet="users" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__u_id_f__619B8048" Association="Self.FK__donation__u_id_f__619B8048">
+      <End Role="users" EntitySet="users" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__donation__u_id_f__693CA210" Association="Self.FK__donation__u_id_f__693CA210">
+      <End Role="users" EntitySet="users" />
+      <End Role="donation" EntitySet="donations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
